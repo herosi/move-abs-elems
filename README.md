@@ -4,7 +4,7 @@ This project integrates a Quarto extension with a VS Code extension to allow int
 
 By dragging img and div elements with the .absolute class in the Quarto preview (or rendered HTML), their positional attributes are automatically updated in the corresponding .qmd file currently open in VS Code.
 
-![](https://github.com/herosi/move-abs-elems/move-abs-elems.gif)
+![](https://github.com/herosi/move-abs-elems/blob/main/move-abs-elems.gif?raw=true)
 
 
 ## ⚠ Important
