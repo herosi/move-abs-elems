@@ -1,0 +1,38 @@
+$schema: https://m.canouil.dev/quarto-wizard/assets/schema/v1/extension-schema.json
+
+attributes:
+  absolute:
+    top:
+      type: string
+      pattern: "\\d+(\\.\\d+)?%"
+      pattern-exact: true
+      description: Top position in percent units.
+    left:
+      type: string
+      pattern: "\\d+(\\.\\d+)?%"
+      pattern-exact: true
+      description: Left position in percent units.
+    bottom:
+      type: string
+      pattern: "\\d+(\\.\\d+)?%"
+      pattern-exact: true
+      description: Bottom position in percent units.
+    right:
+      type: string
+      pattern: "\\d+(\\.\\d+)?%"
+      pattern-exact: true
+      description: Right position in percent units.
+    width:
+      type: string
+      pattern: "\\d+(\\.\\d+)?%"
+      pattern-exact: true
+      description: Width in percent units.
+    height:
+      type: string
+      pattern: "\\d+(\\.\\d+)?%"
+      pattern-exact: true
+      description: Height in percent units.
+
+classes:
+  absolute:
+    description: Marks Div or Image elements as draggable in move-abs-elems preview mode.
